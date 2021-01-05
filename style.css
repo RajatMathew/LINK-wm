@@ -245,3 +245,71 @@ footer h3 {
 }
 
 /* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-ccd {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+
+.text-bigg {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.text-bigg:hover {
+    color: black;
+    transition: 0.4s;
+    transform: scale(1.012);
+}
+.text-subb {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #7b7b7b;
+}
+
+.imgg:hover {
+    transform: scale(1.01);
+    transition: 0.4s;
+}
+
+
+.hero {
+    height: 100vh;
+}
+
+
+@media screen and (max-width: 500px) {
+    .respo-pad-left {
+        padding-left: 30px;
+    }
+    
+    .logo {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .kites {
+        width: 150px;
+    }
+
+    .text-ccd {
+        font-size: 3rem;
+    }
+}
