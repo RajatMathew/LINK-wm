@@ -1,0 +1,161 @@
+body {
+    
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+
+
+
+/* Header start */
+
+.logo {
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.header-text {
+    padding-left: 120px;
+    padding-top: 80px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    
+}
+
+.header-desc {
+    padding-left: 120px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: end;
+    
+}
+.right {
+    margin: 0px auto;
+}
+
+.main-img {
+    height: 600px;
+}
+/* Header end */
+
+
+
+/* Speaker area */
+.speakerrr {
+    margin-top: 100px;
+    align-items: center;
+
+}
+
+.meet-the-speakers {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0;
+    font-weight: 600;
+    letter-spacing: -2px;
+   
+}
+
+.speaker-area-sub-heading {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0;
+    color: #7b7b7b;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.speaker-area {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.speaker-img {
+    width: 350px;
+    padding-top: 80px;
+}
+
+.speaker-img-center {
+    width: 450px;
+}
+.speaker-name-center, .speaker-prof-center, .speaker-name, .speaker-prof {
+    text-align: center;
+}
+
+.speaker-name, .speaker-name-center {
+    font-size: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.speaker-prof, .speaker-prof-center {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #7b7b7b;
+    margin-top: 0px;
+}
+.speaker-img-con {
+    padding-top: 105px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .speaker-area {
+        flex-direction: column;
+        align-items: center;
+justify-content: center;
+    }
+    .header-text {
+        padding-left: 60px;
+        padding-top: 0px;
+        font-size: 60px;
+        margin-bottom: 0;
+        font-weight: 700;
+        
+        
+    }
+    .header-desc {
+        padding-left: 60px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .main-img {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .main-img {
+        height: 400px;
+    }
+    .meet-the-speakers {
+        text-align: left;
+        font-size: 40px;
+        padding-left: 30px;
+    }
+    .speaker-area-sub-heading {
+        text-align: left;
+        padding-left: 30px;
+        font-size: 20px;
+    }
+    .speaker-area {
+        margin-top: 0;
+    }
+}
+
+/* Speaker area end */
