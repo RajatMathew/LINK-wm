@@ -549,3 +549,20 @@ img { max-width: 100%; height: auto; overflow: hidden; }
     display: block;
     letter-spacing: -1px;
 }
+
+
+
+#day, #hr, #min, #sec {
+    color: #4630eb;
+}
+
+
+.spon-logos {
+    overflow: visible;
+    padding-bottom: 100px;
+}
+
+.sponsors {
+    overflow: visible;
+    
+}
