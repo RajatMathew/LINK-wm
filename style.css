@@ -685,3 +685,8 @@ nav.sticky {
   footer a:hover {
       color: black;
   }
+
+  .directions {
+      color: red !important;
+      display: block !important;
+  }
