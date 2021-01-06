@@ -93,11 +93,11 @@ body {
     margin-top: 150px;
     padding-top: 100px;
     align-items: center;
-    background-color: #7a7a7a1e;
+    background-color: #f5f5f5;
 }
 
 .meet-the-speakers {
-    text-align: center;
+    //text-align: center;
     font-size: 60px;
     margin-bottom: 0;
     font-weight: 600;
@@ -529,7 +529,7 @@ img { max-width: 100%; height: auto; overflow: hidden; }
 
 .timer {
     text-align: center;
-    background-color: #7b7b7b1e;
+    background-color: #f5f5f5;
 }
 
 
@@ -626,3 +626,52 @@ nav.sticky {
 .tblue {
     color:#4630eb !important;
 }
+
+
+
+
+
+
+
+
+
+.card {
+    background-color: white;
+    border: none;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  }
+  .card .card-title {
+    font-weight: 600;
+    font-size: 2rem;
+    align-items: ;
+  }
+  .card .card-subtitle {
+    font-weight: 500;
+    font-size: 1rem;
+    opacity: 0.5;
+  }
+  .card.card-cascade i {
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  }
+  .card.card-cascade i img {
+    width: 100%;
+  }
+  .card.card-cascade [class*=card-img-] {
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  }
+  .card.card-cascade.card-cascade-wider i {
+    transform: scale(1.07);
+    margin-bottom: 0.8rem;
+  }
+  .card.card-cascade.card-cascade-narrower i {
+    transform: scale(0.92) translateY(-1.8rem);
+    margin-bottom: -1rem;
+  }
+  .card .card-img-overlay {
+    overflow: hidden;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    background-color: rgba(20, 20, 20, 0.5);
+  }
