@@ -1,6 +1,9 @@
 var countDownDate = new Date("January 21 2021 10:00").getTime();
 
-
+window.addEventListener("scroll", function() {
+    var nav = document.querySelector("nav");
+    nav.classList.toggle("sticky", window.scrollY > 100)
+  })
 
 
 

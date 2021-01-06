@@ -306,9 +306,8 @@ footer h3 {
         padding-left: 30px;
         padding-top: 30px;
     }
-    .kites {
-        width: 150px;
-    }
+    
+
 
     .text-ccd {
         font-size: 3rem;
@@ -565,4 +564,65 @@ img { max-width: 100%; height: auto; overflow: hidden; }
 .sponsors {
     overflow: visible;
     
+}
+
+
+footer {
+    -webkit-box-shadow:18px 18px 40px 0 rgba(50, 50, 50, 0.1185);
+    -moz-box-shadow:18px 18px 40px 0 rgba(50,50,50,.27);
+    box-shadow:18px 18px 40px 1 rgba(50, 50, 50, 0.322)}
+}
+
+
+
+
+
+
+
+
+.navbar .dropdown-menu a:hover {
+    color: #616161 !important;
+}
+.darken-grey-text {
+    color: #2E2E2E;
+}
+
+
+
+
+
+.tbl {
+    color: grey !important;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.navbaaar {
+    
+    position: sticky;
+    background-color: #fff;
+    top: 0;
+    z-index: 100000;
+    
+}
+
+nav.sticky {
+    -webkit-box-shadow:18px 18px 40px 0 rgba(50, 50, 50, 0.1185);
+    -moz-box-shadow:18px 18px 40px 0 rgba(50,50,50,.27);
+    box-shadow:18px 18px 40px 1 rgba(50, 50, 50, 0.322)}
+}
+
+.kites {
+    height: 2px !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(32%) sepia(71%) saturate(3096%) hue-rotate(221deg) brightness(96%) contrast(91%);
+}
+
+
+
+.tblue {
+    color:#4630eb !important;
 }
