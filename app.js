@@ -1,17 +1,12 @@
-var countDownDate = new Date("January 21 2021 10:00").getTime();
+var countDownDate = new Date("June 16 2021 10:00").getTime();
 
-window.addEventListener("scroll", function() {
-    var nav = document.querySelector("nav");
-    nav.classList.toggle("sticky", window.scrollY > 100)
-  })
-
-
-
+window.addEventListener("scroll", function () {
+  var nav = document.querySelector("nav");
+  nav.classList.toggle("sticky", window.scrollY > 100);
+});
 
 // Update the count down every 1 second
-var x = setInterval(function() {
-
-
+var x = setInterval(function () {
   // Get today's date and time
   var now = new Date().getTime();
 
@@ -24,7 +19,6 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  
   // Display the result in the element with id="demo"
   document.getElementById("day").innerText = days;
   document.getElementById("hr").innerText = hours;
